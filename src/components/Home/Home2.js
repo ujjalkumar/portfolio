@@ -19,33 +19,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I've developed a deep affection for programming, and
+              I believe I've acquired some knowledge along the way, or so I think... 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am proficient in classic languages such as
               <i>
-                <b className="purple"> PHP, Javascript and PYTHON. </b>
+                <b className="purple"> PHP, JavaScript, and Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I am interested in creating innovative
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple"> web technologies and products.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js, PHP, PYTHON</b> and
+              I consistently leverage my enthusiasm for product development using
+              <b className="purple"> Node.js, PHP, Python, </b> and &nbsp;
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                   contemporary JavaScript libraries and frameworks
                 </b>
               </i>
-              &nbsp; like
+               &nbsp; such as
               <i>
-                <b className="purple"> React.js and Vue.js</b>
+                <b className="purple"> React.js and Vue.js</b> &nbsp;
               </i>
+              whenever the opportunity arises.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
