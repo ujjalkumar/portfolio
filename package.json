@@ -26,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm i && GENERATE_SOURCEMAP=false npm run build && aws s3 sync build s3://ujjalkumardas.com"
   },
   "eslintConfig": {
     "extends": [

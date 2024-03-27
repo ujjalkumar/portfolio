@@ -5,9 +5,12 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaFacebookMessenger
+} from "react-icons/fa";
 
 function Home2() {
   return (
@@ -63,42 +66,52 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/ujjalkumar"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                    href="https://github.com/ujjalkumar"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillGithub/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/ujjal42834920"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                    href="https://twitter.com/ujjal42834920"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineTwitter/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/ujjal-kumar-das"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                    href="https://www.linkedin.com/in/ujjal-kumar-das"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <FaLinkedinIn/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/ujjalkumardas_official"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                    href="https://www.instagram.com/ujjalkumardas_official"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillInstagram/>
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="https://m.me/100085183327799"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
+                >
+                  <FaFacebookMessenger/>
                 </a>
               </li>
             </ul>
@@ -108,4 +121,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
